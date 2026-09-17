@@ -1,11 +1,8 @@
- ```python
-# ==============================================================================
-# PROVA PRÁTICA AV2 - 3º BIMESTRE
-# ARQUIVO: av2_sistema_modular.py
-# Nome do Aluno:
-# Data:
-# Link do Repositório:
-# ==============================================================================
+  # PROVA PRÁTICA AV2 - 3º BIMESTRE
+ # ARQUIVO: av2_sistema_modular.py
+ # Nome do Aluno:
+ # Data:
+ # Link do Repositório:
 
 # Lista inicial de dados brutos sobre jogadores de futebol
 # Formato: "nome_completo;posição;telefone"
@@ -15,11 +12,6 @@ dados_brutos = [
     "  casemiro;meio-campo;31966665555  "
 ]
 
-
-# ------------------------------------------------------------------------------
-# 1. FUNÇÕES DO SISTEMA (Mínimo de 3 funções)
-# ------------------------------------------------------------------------------
-
 def limpar_e_formatar_texto(texto):
     """
     FUNÇÃO 1:
@@ -28,7 +20,7 @@ def limpar_e_formatar_texto(texto):
     - Retorna o texto formatado.
     """
     return texto.strip().upper()
-
+]
 
 def extrair_codigo_ou_ddd(dado):
     """
@@ -72,10 +64,6 @@ def processar_e_exibir_cadastros(lista_dados):
     return total
 
 
-# ------------------------------------------------------------------------------
-# 2. PROGRAMA PRINCIPAL (FLUXO DE EXECUÇÃO)
-# ------------------------------------------------------------------------------
-
 def main():
     print("==================================================")
     print("       SISTEMA DE FUTEBOL MODULARIZADO - AV2")
@@ -97,4 +85,4 @@ def main():
 # Execução do programa
 if __name__ == "__main__":
     main()
-```
+ 
